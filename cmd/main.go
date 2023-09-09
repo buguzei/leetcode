@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	slc := []int{1, 1, 1, 0, 1, 1, 1, 1}
-	fmt.Println(solving.MaxConsecutiveOnes(slc))
+	nums := []int{12, 345, 2, 6, 7896}
+	fmt.Println(solving.FindNumbersWithEvenNumberOfDigits(nums))
 }

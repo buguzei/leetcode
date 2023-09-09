@@ -1,14 +1,14 @@
 package solving
 
-func MaxConsecutiveOnes(slc []int) int {
+func MaxConsecutiveOnes(nums []int) int {
 	var currentCounter int
 	var maxCounter int
 
-	for i, el := range slc {
+	for i, el := range nums {
 		if el == 1 {
 			currentCounter++
 
-			if i != len(slc)-1 {
+			if i != len(nums)-1 {
 				continue
 			}
 		}
