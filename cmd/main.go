@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/buguzei/leetcode/solving"
+)
 
 func main() {
-	fmt.Println("hello world")
+	slc := []int{1, 1, 1, 0, 1, 1, 1, 1}
+	fmt.Println(solving.MaxConsecutiveOnes(slc))
 }
