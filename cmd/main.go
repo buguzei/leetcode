@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	nums := []int{12, 345, 2, 6, 7896}
-	fmt.Println(solving.FindNumbersWithEvenNumberOfDigits(nums))
+	nums := []int{-4, -1, 0, 3, 10}
+	fmt.Println(solving.SquaresOfSortedArray(nums))
 }
