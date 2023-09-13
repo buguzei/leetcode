@@ -1,4 +1,4 @@
-package solving
+package arrays101
 
 func FindNumbersWithEvenNumberOfDigits(nums []int) int {
 	var counter int

@@ -1,4 +1,4 @@
-package solving
+package arrays101
 
 func MergeSortedArray(nums1, nums2 []int, m, n int) []int {
 	mergeNums1 := nums1[:m]

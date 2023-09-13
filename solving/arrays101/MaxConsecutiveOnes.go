@@ -1,4 +1,4 @@
-package solving
+package arrays101
 
 func MaxConsecutiveOnes(nums []int) int {
 	var currentCounter int

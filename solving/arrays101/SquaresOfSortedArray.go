@@ -1,4 +1,4 @@
-package solving
+package arrays101
 
 import "fmt"
 
