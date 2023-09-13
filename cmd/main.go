@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(dynamicProgramming.ClimbingStairs(4))
+	nums := []int{3, 2, 6, 5, 0, 3}
+	fmt.Println(dynamicProgramming.BestTimetoBuyandSellStock(nums))
 }
