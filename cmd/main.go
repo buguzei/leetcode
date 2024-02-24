@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/buguzei/leetcode/solving/graph"
+	"github.com/buguzei/leetcode/solving/topInterview150"
 )
 
 func main() {
-	nums := [][]int{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
-	fmt.Println(graph.NumberOfProvinces(nums))
+	nums := []int{3, 2, 2, 6, 3, 18, 3, 45}
+	fmt.Println(topInterview150.RemoveElement(nums, 3))
 }
