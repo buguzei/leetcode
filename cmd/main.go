@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	nums := []int{3, 2, 2, 6, 3, 18, 3, 45}
-	fmt.Println(topInterview150.RemoveElement(nums, 3))
+	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 4, 4, 4, 6, 7, 7}
+	fmt.Println(topInterview150.RemoveDuplicatesFromSortedArray(nums))
 }
