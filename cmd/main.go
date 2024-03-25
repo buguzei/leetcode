@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	arr := []int{1, 2, 3}
+	gas := []int{5, 8, 2, 8}
+	cost := []int{6, 5, 6, 6}
 
-	fmt.Println(topInterview150.JumpGame(arr))
+	fmt.Println(topInterview150.GasStation(gas, cost))
 }
