@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/buguzei/leetcode/randomTopic"
+	"github.com/buguzei/leetcode/solving/topInterviewQuestions/dynamicProgramming"
 )
 
 func main() {
-	fmt.Println(randomTopic.ReverseInteger(-1234))
+	fmt.Println(dynamicProgramming.PascalTriangle(5))
 }
